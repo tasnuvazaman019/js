@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+     <link rel="shortcut icon" type="x-icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Js Practice</title>
+    <!-- css llinks -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+  </head>
+  <body>
+   <div class="container">
+    <!-- text change -->
+     <h1 class="text-danger">Click the button to change the text</h1>
+     <button type="button" class="btn btn-dark" onclick="textChange()">Text Change</button>
+     <h2 id="h2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+
+     <hr>
+
+     <h1 class="text-danger">Click the buutton to show date and time</h1>
+     <button type="button" class="btn btn-dark" onclick="showDate()">Show Date</button>
+     <h2 id="date_h2">Date</h2>
+
+     <hr>
+
+     <h1 class="text-danger">Click the buutton to tuurn off or on the bulb</h1>
+     <button type="button" class="btn btn-success" onclick="bulbOn()">Bulb on</button>
+     <button type="button" class="btn btn-dark" onclick="bulbOff()">Bulb off</button>
+
+     <img id="img" src="images/off.gif" alt="bulb">
+   </div>
+
+
+    <!-- script links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
